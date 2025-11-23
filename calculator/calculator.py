@@ -1,25 +1,25 @@
-# კალკულატორი
+კალკულატორი
 
 # ფუნქცია თითოეული ოპერაციისთვის
 def add(a, b):
     return a + b 
 
 def subtract(a, b):
-    return a - b  
+    return a - b 
 
 def multiply(a, b):
-    return a * b  
+    return a * b 
 
 def divide(a, b):
     if b == 0:
-        return "ნულზე გაყოფა დაუშვებელია!"  
+        return "ნულზე გაყოფა დაუშვებელია!" 
     return a / b
 
-print("----------- კალკულატორი ------------")
+print("---- კალკულატორი ----")
 
-while True: 
+while True:  
     num1 = input("შეიყვანე პირველი რიცხვი: ")
-    num2 = input("შეიყვანე მეორე რიცხვი: ") 
+    num2 = input("შეიყვანე მეორე რიცხვი: ")
 
     # ვამოწმებთ რიცხვები სწორია თუ არა
     if not num1.replace('.', '', 1).isdigit() or not num2.replace('.', '', 1).isdigit():
